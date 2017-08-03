@@ -3,6 +3,7 @@ var tablero = document.getElementById('tablero');
 
 
 generar.onclick= function(){
+  tablero.innerHTML = '';
   var tabla=document.createElement('table');
   tabla.border="1";
   var nlados=document.getElementById('lados').value;
